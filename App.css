@@ -1,0 +1,54 @@
+
+body{
+  
+  background-color: #d5f4e6;
+    animation-name:example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite; 
+  }
+  .App{
+    background-color:#80ced6;
+    
+    min-height:500px;
+    width: 400px;
+    margin: 40px auto;
+  }
+@keyframes example{
+    
+    0% { 
+       background-color: #F2EFE4;}
+    25% {background-color: #CB8C1D;}
+    50% {background-color: #4C3327;}
+    75% {background-color: #BD3632;}
+   
+    100% {background-color: #282827;}
+}
+  
+  #to-do-form input{
+    background-color: #fefbd8;
+    border: 0; 
+    color: black;
+    width: 200px;
+    height: 50px;
+    margin: 20px;
+    padding: 0 20px;
+    font-size: 18px;
+    border-radius: 10px;
+  }
+  #to-do-form input::placeholder{
+    color: black;
+  }
+  #to-do-form input:focus{
+    outline: none;
+  }
+  #to-do-form button{
+    height: 50px;
+    width: 80px;
+    border-radius: 5px;
+    border: 0;
+    background-color:rgb(194, 166, 89); 
+    cursor: pointer;
+  }
+  #to-do-form button:focus{
+    outline: none;
+  }
